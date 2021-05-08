@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F8-shop</title>
+    <link rel="icon" href="./assets/img/n.jfif">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css">
+</head>
+<body>
+    <!-- Block Element Modifier -->
+    <div class="app">
+        <header class="header">
+            <div class="grid wide">
+                <!-- Header navbar -->
+                <nav class="header__navbar hide-on-mobile-tablet">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--separate">
+                            Vào cửa hàng trên ứng dụng F8-shop
+                            <!-- Header QR code -->
+                            <div class="header__qr">
+                                <img src="./assets/img/QR_code.png" alt="" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/google_play.png" alt="Google Play" class="header__qr-download-img">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/app_store.png" alt="App store" class="header__qr-download-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-title--no-poiter">Kết nối</span>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-facebook"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item-notify">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon  fas fa-bell"></i>
+                                Thông báo
+                            </a>
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông báo mới nhận</h3> 
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://img.abaha.vn/photos/resized/200x120/121-1608210033-demoweb.png" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">CHĂM SÓC KHÔNG QUÊN CHỐNG NẮNG</span>
+                                                <span class="header__notify-description">Kem Chống nắng Whoo Gongjinhyang Soo.</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link ">
+                                            <img src="https://abaha.vn/photos/resized/200x120/83-1589966184-myphamohui-lgvina.png" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Kem nền dạng thỏi OHUI ultimate cover stick register to form translate</span>
+                                                <span class="header__notify-description">Mô tả mỹ phẩm ohui chính hãng</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item header__noFtify-item--viewed">
+                                        <a href="" class="header__notify-link ">
+                                            <img src="https://abaha.vn/photos/resized/200x120/83-1589963137-myphamohui-lgvina.png" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Tặng ngay combo 5 gói mặt nạ thải độc Su:m37</span>
+                                                <span class="header__notify-description">Tặng ngay combo 5 gói mặt nạ thải độc Su:m37 khi mua hàng </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item ">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://abaha.vn/photos/resized/200x120/83-1595936336-myphamohui-lgvina.png" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">KHỞI ĐẦU CỦA LÀN DA KHỎE ĐẸP</span>
+                                                <span class="header__notify-description">Ohui Prime Advancer</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                                </footer>
+                            </div>
+
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fas fa-question-circle"></i>
+                                Trợ giúp
+                            </a>
+                        </li>
+                        <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng ký</li>
+                        <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li> -->
+                       <li class="header__navbar-item header__navbar-user">
+                           <img src="./assets/img/moon.jpg" alt="" class="header__navbar-user-img">
+                           <span class="header__navbar-user-name">Mirai Moon</span>
+
+                           <ul class="header__navbar-user-menu">
+                               <li class="header__navbar-user-item">
+                                   <a href="" class="">Tài khoản của tôi</a>
+                               </li>
+                               <li class="header__navbar-user-item">
+                                <a href="" class="">Địa chỉ của tôi</a>
+                            </li>
+                            <li class="header__navbar-user-item">
+                                <a href="" class="">Đơn mua</a>
+                            </li>
+                            <li class="header__navbar-user-item header__navbar-user-item--separate">
+                                <a href="" class="">Đăng xuất</a>
+                            </li>
+                           </ul>
+                       
+                        </li>
+                    </ul>
+                </nav>
+                <!-- Header search -->
+                <div class="header-with-search">
+                    <label for="mobile-category-checkbox" class="header__mobile-category">
+                        <i class=" header__mobile-category-icon fas fa-ellipsis-v"></i>
+                    </label>
+
+                    <input type="checkbox" name="" class="header__input" id="mobile-category-checkbox">
+
+                    <nav class="header__navbar-mobile">
+                        <label for="mobile-category-checkbox" class="mobile-category-close">
+                            <i class="fas fa-times"></i>
+                        </label>
+    
+                        <ul class="header__navbar-mobile-menu">
+                            <li class="header__navbar-mobile-item">
+                                <a href="" class="">Tài khoản của tôi</a>
+                            </li>
+                            <li class="header__navbar-mobile-item">
+                             <a href="" class="">Địa chỉ của tôi</a>
+                         </li>
+                         <li class="header__navbar-mobile-item">
+                             <a href="" class="">Đơn mua</a>
+                         </li>
+                         <li class="header__navbar-mobile-item header__navbar-user-item--separate">
+                             <a href="" class="">Đăng xuất</a>
+                         </li>
+                        </ul>
+                    </nav>
+
+                    <label for="mobile-search-checkbox" class="header__mobile-search">
+                        <i class="header__mobile-search-icon fas fa-search"></i>
+                    </label>
+                    <div class="header__logo hide-on-tablet">
+                        <a href="/" class="header__logo-link">
+                            <svg class="header__logo-img" viewBox=" 0 0 192 65">
+                                <g fill-rule="evenodd">
+                                    <path fill="#fff" d="M 35.6717 44.9538 c -0.33335 2.75105 -2.00031 4.95434 -4.58238 6.0576 c -1.43797 0.614592 -3.36871 0.946386 -4.89695 0.842163 c -2.38403 -0.0911143 -4.62379 -0.670894 -6.68834 -1.73074 c -0.737552 -0.378855 -1.83705 -1.13528 -2.68131 -1.84378 c -0.213839 -0.179005 -0.239235 -0.293758 -0.0977428 -0.494467 c 0.0764015 -0.115182 0.217254 -0.322983 0.528622 -0.779199 c 0.45158 -0.661653 0.507921 -0.744602 0.558713 -0.822178 c 0.14448 -0.221769 0.379233 -0.241109 0.610785 -0.0588804 c 0.0243289 0.0189105 0.0243289 0.0189105 0.0426824 0.0333083 c 0.0379873 0.0294402 0.0379873 0.0294402 0.12762 0.0990653 c 0.0907002 0.0706996 0.14448 0.112389 0.166248 0.128721 c 2.22653 1.74385 4.8197 2.74955 7.43762 2.85012 c 3.6423 -0.0496401 6.26151 -1.68733 6.7308 -4.202 c 0.51603 -2.7676 -1.6565 -5.15827 -5.90703 -6.49082 c -1.32934 -0.416676 -4.68952 -1.76169 -5.30905 -2.12507 c -2.90945 -1.7071 -4.26974 -3.94306 -4.07638 -6.70485 c 0.296216 -3.82831 3.85017 -6.68358 8.34079 -6.7027 c 2.00821 -0.004083 4.01215 0.413238 5.93734 1.22446 c 0.681638 0.287311 1.89873 0.949609 2.31894 1.26335 c 0.242009 0.177716 0.289814 0.384872 0.151096 0.60836 c -0.0774686 0.12958 -0.205516 0.335017 -0.475482 0.763297 l -0.0029878 0.0047276 c -0.355331 0.564092 -0.366429 0.581713 -0.447952 0.713657 c -0.140852 0.214463 -0.30646 0.234448 -0.56042 0.0732783 c -2.06007 -1.38391 -4.34379 -2.08016 -6.85544 -2.13044 c -3.12691 0.061889 -5.47061 1.92286 -5.62469 4.45794 c -0.0409751 2.28968 1.67635 3.96132 5.38588 5.23585 c 7.52982 2.41969 10.4113 5.25648 9.86903 9.72925 M 26.3725 5.42669 c 4.90229 0 8.89822 4.6522 9.08517 10.4758 H 17.2876 c 0.186949 -5.82358 4.18288 -10.4758 9.08495 -10.4758 m 25.3709 11.5707 c 0 -0.604707 -0.487006 -1.09488 -1.08755 -1.09488 h -11.7774 c -0.28896 -7.68928 -5.77749 -13.8206 -12.5059 -13.8206 c -6.72824 0 -12.2168 6.13131 -12.5057 13.8206 l -11.7942 0.0002149 c -0.591365 0.0107446 -1.06749 0.496831 -1.06749 1.09466 c 0 0.0285807 0.00106706 0.0569465 0.00320118 0.0848825 H 0.999957 l 1.68126 37.0614 c 0.00021341 0.103148 0.00405483 0.207156 0.0117377 0.311809 c 0.00170729 0.0236381 0.003628 0.0470614 0.00554871 0.0704847 l 0.00362801 0.0782207 l 0.00405483 0.004083 c 0.255454 2.57892 2.12708 4.65607 4.67202 4.75191 l 0.00576212 0.0055872 h 37.4122 c 0.0177132 0.0002149 0.0354264 0.0004298 0.0531396 0.0004298 c 0.0177132 0 0.0354264 -0.0002149 0.0531396 -0.0004298 h 0.0796027 l 0.0017073 -0.0015043 c 2.58933 -0.0706995 4.68674 -2.17686 4.90826 -4.78759 l 0.0012805 -0.0012893 l 0.0017073 -0.0350275 c 0.0021341 -0.0275062 0.0040548 -0.0547975 0.0057621 -0.0823037 c 0.0040548 -0.065757 0.0068292 -0.131299 0.0078963 -0.196412 l 1.83449 -37.2077 h -0.0012805 c 0.001067 -0.0186956 0.0014939 -0.0376062 0.0014939 -0.0565167 M 176.465 41.1519 c 0.720839 -2.35125 2.90042 -3.91868 5.44373 -3.91868 c 2.42769 0 4.73911 1.64869 5.5376 3.9142 l 0.054826 0.155698 h -11.0827 l 0.046506 -0.151219 Z m 13.5027 3.40637 c 0.014933 0.0006399 0.014933 0.0006399 0.036906 0.0008531 c 0.021973 -0.0002132 0.021973 -0.0002132 0.044372 -0.0008531 c 0.53055 -0.0243144 0.950595 -0.476691 0.950595 -1.02718 c 0 -0.0266606 -0.000853 -0.0496953 -0.00256 -0.0865936 c 0.000427 -0.0068251 0.000427 -0.020262 0.000427 -0.0635588 c 0 -5.19263 -4.07075 -9.40073 -9.09145 -9.40073 c -5.02049 0 -9.09124 4.20811 -9.09124 9.40073 c 0 0.387112 0.022399 0.773157 0.067838 1.15686 l 0.00256 0.0204753 l 0.01408 0.10131 c 0.250022 1.86837 1.04723 3.58318 2.3063 4.97081 c -0.00064 -0.0006399 0.00064 0.0006399 0.007253 0.0078915 c 1.39603 1.53629 3.29146 2.5833 5.3936 2.97489 l 0.02752 0.0053321 v -0.0027727 l 0.13653 0.0228215 c 0.070186 0.0119439 0.144211 0.0236746 0.243409 0.039031 c 2.76688 0.332724 5.22123 -0.0661182 7.29948 -1.11271 c 0.511777 -0.257861 0.971928 -0.542383 1.37064 -0.842901 c 0.128211 -0.0968312 0.243622 -0.190463 0.34346 -0.278123 c 0.051412 -0.0452164 0.092372 -0.083181 0.114131 -0.105149 c 0.468898 -0.48309 0.498124 -0.654357 0.215249 -1.09543 c -0.31146 -0.495673 -0.586228 -0.917977 -0.821744 -1.26755 c -0.082345 -0.122425 -0.154023 -0.226721 -0.214396 -0.313315 c -0.033279 -0.0475624 -0.033279 -0.0475624 -0.054399 -0.0776356 c -0.008319 -0.0117306 -0.008319 -0.0117306 -0.013866 -0.0191956 l -0.00256 -0.0038391 c -0.256208 -0.318861 -0.431565 -0.34808 -0.715933 -0.0970445 c -0.030292 0.0268739 -0.131624 0.105149 -0.14997 0.124558 c -1.99932 1.77538 -4.72951 2.34656 -7.45585 1.77602 c -0.507724 -0.136289 -0.982595 -0.309476 -1.41992 -0.518495 c -1.70813 -0.856551 -2.91834 -2.3826 -3.26756 -4.14903 l -0.02752 -0.139488 h 13.7546 Z M 154.832 41.1519 c 0.720831 -2.35125 2.90039 -3.91868 5.44367 -3.91868 c 2.42766 0 4.73905 1.64869 5.53775 3.9142 l 0.054612 0.155698 h -11.0825 l 0.046505 -0.151219 Z m 13.5025 3.40637 c 0.015146 0.0006399 0.015146 0.0006399 0.037118 0.0008531 c 0.02176 -0.0002132 0.02176 -0.0002132 0.044159 -0.0008531 c 0.530543 -0.0243144 0.950584 -0.476691 0.950584 -1.02718 c 0 -0.0266606 -0.000854 -0.0496953 -0.00256 -0.0865936 c 0.000426 -0.0068251 0.000426 -0.020262 0.000426 -0.0635588 c 0 -5.19263 -4.0707 -9.40073 -9.09134 -9.40073 c -5.02022 0 -9.09134 4.20811 -9.09134 9.40073 c 0 0.387112 0.022826 0.773157 0.068051 1.15686 l 0.00256 0.0204753 l 0.01408 0.10131 c 0.250019 1.86837 1.04722 3.58318 2.30627 4.97081 c -0.00064 -0.0006399 0.00064 0.0006399 0.007254 0.0078915 c 1.39601 1.53629 3.29142 2.5833 5.39354 2.97489 l 0.027519 0.0053321 v -0.0027727 l 0.136529 0.0228215 c 0.070184 0.0119439 0.144209 0.0236746 0.243619 0.039031 c 2.76685 0.332724 5.22117 -0.0661182 7.29918 -1.11271 c 0.511771 -0.257861 0.971917 -0.542383 1.37062 -0.842901 c 0.128209 -0.0968312 0.243619 -0.190463 0.343456 -0.278123 c 0.051412 -0.0452164 0.09237 -0.083181 0.11413 -0.105149 c 0.468892 -0.48309 0.498118 -0.654357 0.215246 -1.09543 c -0.311457 -0.495673 -0.586221 -0.917977 -0.821734 -1.26755 c -0.082344 -0.122425 -0.154022 -0.226721 -0.21418 -0.313315 c -0.033492 -0.0475624 -0.033492 -0.0475624 -0.054612 -0.0776356 c -0.008319 -0.0117306 -0.008319 -0.0117306 -0.013866 -0.0191956 l -0.002346 -0.0038391 c -0.256419 -0.318861 -0.431774 -0.34808 -0.716138 -0.0970445 c -0.030292 0.0268739 -0.131623 0.105149 -0.149969 0.124558 c -1.99908 1.77538 -4.72945 2.34656 -7.45577 1.77602 c -0.507717 -0.136289 -0.982582 -0.309476 -1.4199 -0.518495 c -1.70811 -0.856551 -2.9181 -2.3826 -3.26731 -4.14903 l -0.027733 -0.139488 h 13.7545 Z M 138.321 49.7358 c -3.3813 0 -6.14681 -2.68085 -6.23169 -6.04042 v -0.316217 c 0.0840194 -3.35419 2.8504 -6.03547 6.23169 -6.03547 c 3.44242 0 6.23321 2.77406 6.23321 6.19605 c 0 3.42199 -2.79078 6.19605 -6.23321 6.19605 m 0.00172791 -15.6791 c -2.21777 0 -4.33683 0.755348 -6.0399 2.14076 l -0.193525 0.157355 V 34.6209 c 0 -0.462379 -0.0993546 -0.564197 -0.567401 -0.564197 h -2.17651 c -0.474094 0 -0.567617 0.094284 -0.567617 0.564197 v 27.6401 c 0 0.453984 0.105834 0.564197 0.567617 0.564197 h 2.17651 c 0.463511 0 0.567401 -0.107845 0.567401 -0.564197 V 50.7342 l 0.193525 0.157355 c 1.70328 1.38563 3.82234 2.14098 6.0399 2.14098 c 5.27141 0 9.54474 -4.24795 9.54474 -9.48803 c 0 -5.23987 -4.27333 -9.48781 -9.54474 -9.48781 M 115.908 49.524 c -3.44946 0 -6.2458 -2.74969 -6.2458 -6.14259 c 0 -3.39289 2.79656 -6.1428 6.2458 -6.1428 c 3.44882 0 6.24538 2.74991 6.24538 6.1428 c 0 3.39268 -2.79635 6.14259 -6.24538 6.14259 m 0.001914 -15.5438 c -5.28187 0 -9.56303 4.21129 -9.56303 9.40594 c 0 5.19444 4.28116 9.40594 9.56303 9.40594 c 5.28166 0 9.56239 -4.2115 9.56239 -9.40594 c 0 -5.19465 -4.28052 -9.40594 -9.56239 -9.40594 M 94.5919 34.1891 c -1.92813 0 -3.79389 0.6199 -5.34177 1.7656 l -0.188189 0.139311 V 23.2574 c 0 -0.425468 -0.139582 -0.564348 -0.564997 -0.564348 h -2.27827 c -0.460041 0 -0.565212 0.110027 -0.565212 0.564348 v 29.2834 c 0 0.443339 0.113559 0.564778 0.565212 0.564778 h 2.27827 c 0.422619 0 0.564997 -0.14577 0.564997 -0.564778 v -9.56484 c 0.023658 -3.011 2.49313 -5.44129 5.52996 -5.44129 c 3.04458 0 5.51684 2.44213 5.52975 5.46304 v 9.54309 c 0 0.484465 0.0806524 0.564563 0.565212 0.564563 h 2.27268 c 0.481764 0 0.565212 -0.0824666 0.565212 -0.564563 v -9.57108 c -0.018066 -4.82807 -4.04402 -8.78065 -8.93285 -8.78065 M 62.8459 47.7938 l -0.0053397 0.0081519 c -0.324867 0.492119 -0.460922 0.699135 -0.536959 0.817981 c -0.256092 0.38121 -0.224267 0.551113 0.166812 0.881695 c 0.91266 0.735818 2.0859 1.50854 2.87745 1.89554 c 2.2023 1.07691 4.58103 1.64604 7.10179 1.69753 c 1.62839 0.0821628 3.67349 -0.305054 5.19637 -0.984238 c 2.75699 -1.22987 4.51311 -3.62696 4.82089 -6.57946 c 0.498514 -4.78411 -2.61431 -7.77479 -10.6322 -10.185 l -0.0021359 -0.0006435 c -3.73565 -1.20477 -5.49048 -2.80641 -5.49112 -5.04261 c 0.109998 -2.47153 2.40158 -4.31795 5.49326 -4.43315 c 2.49043 0.0062212 4.69231 0.6676 6.85574 2.05986 c 0.456223 0.276736 0.666607 0.22568 0.973319 -0.172263 c 0.035242 -0.0587797 0.133279 -0.201224 0.543367 -0.790093 l 0.0012815 -0.0019308 c 0.382963 -0.55004 0.508979 -0.733673 0.540377 -0.787948 c 0.258441 -0.486327 0.22149 -0.673821 -0.244985 -1.00462 c -0.459427 -0.32908 -1.75355 -1.00247 -2.49364 -1.29787 c -2.05834 -0.821199 -4.18632 -1.22 -6.30425 -1.17881 c -4.81982 0.104688 -8.57875 3.23932 -8.82651 7.35153 c -0.157201 2.9703 1.3503 5.35882 4.50008 7.12457 c 0.882971 0.466161 4.11156 1.68659 5.61842 2.12787 c 4.28478 1.25475 6.51869 3.56303 6.05713 6.28642 c -0.419273 2.47432 -3.0118 4.11994 -6.64984 4.23256 c -2.63823 -0.0549182 -5.29633 -1.02178 -7.60436 -2.75621 c -0.0115337 -0.0083664 -0.0700567 -0.0519149 -0.177919 -0.132362 c -0.151647 -0.113054 -0.151647 -0.113054 -0.174288 -0.130002 c -0.470534 -0.32479 -0.747343 -0.29776 -1.03462 0.130216 c -0.0346012 0.0529875 -0.391933 0.596378 -0.568143 0.863246"></path>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <input type="checkbox" hidden id="mobile-category-checkbox" class="header__category-checkbox">
+                    <input type="checkbox" hidden id="mobile-search-checkbox" class="header__search-checkbox">
+
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input"placeholder="Nhập để tìm kiếm sản phẩm" >
+                           
+                            <!-- Search history -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">Kem dưỡng da</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Kem trị mụn</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Kem chống nắng</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header__search-select">
+                            <span class="header__search-select-label">Trong shop</span>
+                            <i class="header__search-select-icon fas fa-angle-down"></i>
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item header__search-option-item--active">
+                                    <span>Trong shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                                <li class="header__search-option-item">
+                                    <span>Ngoài shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fas fa-search"></i>
+                        </button>
+                    </div>
+                    <!-- Cart layout -->
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fas fa-shopping-cart"></i>
+                            <span class="header__cart-notice">3</span>
+                            
+                            <!-- No cart: header__cart-list--no-cart -->
+                            <div class="header__cart-list ">
+                                <img src="./assets/img/no__cart.png" alt="" class="header__cart-no-cart-img">
+                                <p class="header__cart-list-no-cart-msg">
+                                    Chưa có sản phẩm
+                                </p>
+
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                <ul class="header__cart-list-item">
+                                    <li class="header__cart-item">
+                                        <img src="https://abaha.vn/photos/resized/320x/83-1580888419-myphamohui-lgvina.png" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Bộ kem đặc trị vùng mắt Ohui Age Recovery Wrinkle Cut Serum</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">2.000.000</span>
+                                                    <span class="header__cart-item-multipfy">x</span>
+                                                    <span class="header__cart-item-quantity">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-discription">Phân loại:Bạc</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                                
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="https://abaha.vn/photos/resized/320x/83-1591778831-myphamohui-lgvina.png" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Nước hoa hồng chống lão hóa da Ohui Age Recovery Skin Softenner</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">1.035.000</span>
+                                                    <span class="header__cart-item-multipfy">x</span>
+                                                    <span class="header__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-discription">Phân loại:Bạc</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                                
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="https://abaha.vn/photos/resized/320x/83-1591783524-myphamohui-lgvina.png" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Tẩy Trang Whoo Vital Hydrating Cleasing Water </h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">970.000</span>
+                                                    <span class="header__cart-item-multipfy">x</span>
+                                                    <span class="header__cart-item-quantity">4</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-discription">Phân loại:Bạc</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                                
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="https://abaha.vn/photos/resized/320x/83-1580888419-myphamohui-lgvina.png" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Bộ kem đặc trị vùng mắt Ohui Age Recovery Wrinkle Cut Serum</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">2.000.000</span>
+                                                    <span class="header__cart-item-multipfy">x</span>
+                                                    <span class="header__cart-item-quantity">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-discription">Phân loại:Bạc</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                                
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="https://abaha.vn/photos/resized/320x/83-1591778831-myphamohui-lgvina.png" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Nước hoa hồng chống lão hóa da Ohui Age Recovery Skin Softenner</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">1.035.000</span>
+                                                    <span class="header__cart-item-multipfy">x</span>
+                                                    <span class="header__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-discription">Phân loại:Bạc</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                                
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="https://abaha.vn/photos/resized/320x/83-1591783524-myphamohui-lgvina.png" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Tẩy Trang Whoo Vital Hydrating Cleasing Water </h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">970.000</span>
+                                                    <span class="header__cart-item-multipfy">x</span>
+                                                    <span class="header__cart-item-quantity">4</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-discription">Phân loại:Bạc</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                                
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="https://abaha.vn/photos/resized/320x/83-1580888419-myphamohui-lgvina.png" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Bộ kem đặc trị vùng mắt Ohui Age Recovery Wrinkle Cut Serum</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">2.000.000</span>
+                                                    <span class="header__cart-item-multipfy">x</span>
+                                                    <span class="header__cart-item-quantity">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-discription">Phân loại:Bạc</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                                
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="https://abaha.vn/photos/resized/320x/83-1591778831-myphamohui-lgvina.png" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Nước hoa hồng chống lão hóa da Ohui Age Recovery Skin Softenner</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">1.035.000</span>
+                                                    <span class="header__cart-item-multipfy">x</span>
+                                                    <span class="header__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-discription">Phân loại:Bạc</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                                
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="https://abaha.vn/photos/resized/320x/83-1591783524-myphamohui-lgvina.png" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Tẩy Trang Whoo Vital Hydrating Cleasing Water </h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">970.000</span>
+                                                    <span class="header__cart-item-multipfy">x</span>
+                                                    <span class="header__cart-item-quantity">4</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-discription">Phân loại:Bạc</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                                
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <a href="#" class="header__cart-view-cart btn btn--primary ">Xem giỏ hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="header__sort-bar">
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Liên quan</a>
+                </li>
+                <li class="header__sort-item header__sort-item--active">
+                    <a href="" class="header__sort-link">Mới nhất</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Bán chạy</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Giá</a>
+                </li>
+            </ul>
+        </header>
+        <div class="app__container">
+           <div class="grid wide">
+                <div class="row sm-gutter app__content">
+                    <div class="col l-2 m-0 c-0">
+                        <nav class="category">
+                            <h3 class="category__heading"> Danh mục</h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item-active">
+                                    <a href="#" class="category-item__link">Váy xinh</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Váy xòe</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Váy suông & váy ôm</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col l-10 m-12 c-12">
+                        <div class="home-filter hide-on-mobile-tablet">
+                            <span class="home-filter__label">Sắp xếp theo</span>
+                            <button class=" home-filter__btn btn">Phổ biến</button>
+                            <button class=" home-filter__btn btn btn--primary">Mới nhất</button>
+                            <button class=" home-filter__btn btn">Bán chạy</button>
+
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="select-input__icon fas fa-angle-down"></i>
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá: Thấp đến cao</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá: Cao đến thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-curent">1</span>/14
+                                </span>
+
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn-disabled ">
+                                        <i class=" home-filter__page-icon fas fa-angle-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class=" home-filter__page-icon fas fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <nav class="mobile-category">
+                            <ul class="mobile-category__list">
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ và thiết bị tiện ích </a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Thiết bị điện gia dụng</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Đồ dùng phòng bếp</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ và thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Thiết bị điện gia dụng</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Đồ dùng phòng bếp</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ và thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Thiết bị điện gia dụng</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Đồ dùng phòng bếp</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ và thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Thiết bị điện gia dụng</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Đồ dùng phòng bếp</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ và thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Thiết bị điện gia dụng</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Đồ dùng phòng bếp</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ và thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Thiết bị điện gia dụng</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Đồ dùng phòng bếp</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ và thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Thiết bị điện gia dụng</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Đồ dùng phòng bếp</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ và thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Thiết bị điện gia dụng</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Đồ dùng phòng bếp</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <div class="home-product">
+                            <div class="row sm-gutter">
+                                <!-- Product item -->
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home__product-item" href="#">
+                                        <div class="home__product-item-img" style="background-image: url(https://cf.shopee.vn/file/c30c9083b36584b5a3134bfd4b5c6505_tn);"></div>
+                                        <h4 class="home__product-item-name">[Mã FASHIONGREEN hoàn 10% tối đa 50K xu đơn 300K] [P0006]🎃 Áo thun áo phông PUMPKIN vải dày (Có sẵn/ảnh thật)</h4>
+                                        
+                                        <div class="home__product-item-price">
+                                            <span class="home__product-item-price-old">202.000đ</span>
+                                            <span class="home__product-item-price-current">182.000đ</span>
+                                        </div>
+
+                                        <div class="home__product-item__action">
+                                            <span class="home__product-item__like home__product-item__like--liked">
+                                                <i class="home__product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home__product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home__product-item__rating">
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                            </div>
+                                            <span class="home__product-item__sold">Đã bán 4.2k</span>
+                                        </div>
+
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">CoCo</span>
+                                            <span class="home__product-item__origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="home__product-item__favory">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">43%</span>
+                                            <span class="home__product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                 <!-- Product item -->
+                                 <div class="col l-2-4 m-4 c-6">
+                                    <a class="home__product-item" href="#">
+                                        <div class="home__product-item-img" style="background-image: url(https://cf.shopee.vn/file/444bc97f3294adc89da35e7fb717fbe5_tn);"></div>
+                                        <h4 class="home__product-item-name">[Mã FASHIONGREEN hoàn 10% tối đa 50K xu đơn 300K] [P0006]🎃 Áo thun áo phông PUMPKIN vải dày (Có sẵn/ảnh thật)</h4>
+                                        
+                                        <div class="home__product-item-price">
+                                            <span class="home__product-item-price-old">200.000đ</span>
+                                            <span class="home__product-item-price-current">192.000đ</span>
+                                        </div>
+
+                                        <div class="home__product-item__action">
+                                            <span class="home__product-item__like home__product-item__like--liked">
+                                                <i class="home__product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home__product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home__product-item__rating">
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home__product-item__sold">Đã bán 1.2k</span>
+                                        </div>
+
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">CoCo</span>
+                                            <span class="home__product-item__origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="home__product-item__favory">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">32%</span>
+                                            <span class="home__product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                 <!-- Product item -->
+                                 <div class="col l-2-4 m-4 c-6">
+                                    <a class="home__product-item" href="#">
+                                        <div class="home__product-item-img" style="background-image: url(https://cf.shopee.vn/file/c380024d4ae8919f9a33d750c573cb14_tn;)"></div>
+                                        <h4 class="home__product-item-name">[Mã FASHIONGREEN hoàn 10% tối đa 50K xu đơn 300K] [P0006]🎃 Áo thun áo phông PUMPKIN vải dày (Có sẵn/ảnh thật)</h4>
+                                        
+                                        <div class="home__product-item-price">
+                                            <span class="home__product-item-price-old">202.000đ</span>
+                                            <span class="home__product-item-price-current">178.000đ</span>
+                                        </div>
+
+                                        <div class="home__product-item__action">
+                                            <span class="home__product-item__like home__product-item__like--liked">
+                                                <i class="home__product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home__product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home__product-item__rating">
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                            </div>
+                                            <span class="home__product-item__sold">Đã bán 2.3k</span>
+                                        </div>
+
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">CoCo</span>
+                                            <span class="home__product-item__origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="home__product-item__favory">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">15%</span>
+                                            <span class="home__product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                 <!-- Product item -->
+                                 <div class="col l-2-4 m-4 c-6">
+                                    <a class="home__product-item" href="#">
+                                        <div class="home__product-item-img" style="background-image: url(https://cf.shopee.vn/file/c09254c8b0b42ae124e4239619eca52c_tn);"></div>
+                                        <h4 class="home__product-item-name">[Mã FASHIONGREEN hoàn 10% tối đa 50K xu đơn 300K] [P0006]🎃 Áo thun áo phông PUMPKIN vải dày (Có sẵn/ảnh thật)</h4>
+                                        
+                                        <div class="home__product-item-price">
+                                            <span class="home__product-item-price-old">450.000đ</span>
+                                            <span class="home__product-item-price-current">345.000đ</span>
+                                        </div>
+
+                                        <div class="home__product-item__action">
+                                            <span class="home__product-item__like home__product-item__like--liked">
+                                                <i class="home__product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home__product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home__product-item__rating">
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home__product-item__sold">Đã bán 80</span>
+                                        </div>
+
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">CoCo</span>
+                                            <span class="home__product-item__origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="home__product-item__favory">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">30%</span>
+                                            <span class="home__product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                 <!-- Product item -->
+                                 <div class="col l-2-4 m-4 c-6">
+                                    <a class="home__product-item" href="#">
+                                        <div class="home__product-item-img" style="background-image: url(https://cf.shopee.vn/file/6e21fbb4733dd3071101aeaf78249451_tn);"></div>
+                                        <h4 class="home__product-item-name">[Mã FASHIONGREEN hoàn 10% tối đa 50K xu đơn 300K] [P0006]🎃 Áo thun áo phông PUMPKIN vải dày (Có sẵn/ảnh thật)</h4>
+                                        
+                                        <div class="home__product-item-price">
+                                            <span class="home__product-item-price-old">134.000đ</span>
+                                            <span class="home__product-item-price-current">120.000đ</span>
+                                        </div>
+
+                                        <div class="home__product-item__action">
+                                            <span class="home__product-item__like home__product-item__like--liked">
+                                                <i class="home__product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home__product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home__product-item__rating">
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                            </div>
+                                            <span class="home__product-item__sold">Đã bán 9.3k</span>
+                                        </div>
+
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">CoCo</span>
+                                            <span class="home__product-item__origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="home__product-item__favory">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">47%</span>
+                                            <span class="home__product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                 <!-- Product item -->
+                                 <div class="col l-2-4 m-4 c-6">
+                                    <a class="home__product-item" href="#">
+                                        <div class="home__product-item-img" style="background-image: url(https://cf.shopee.vn/file/d710a1985459a6240329301b751b208c_tn);"></div>
+                                        <h4 class="home__product-item-name">[Mã FASHIONGREEN hoàn 10% tối đa 50K xu đơn 300K] [P0006]🎃 Áo thun áo phông PUMPKIN vải dày (Có sẵn/ảnh thật)</h4>
+                                        
+                                        <div class="home__product-item-price">
+                                            <span class="home__product-item-price-old">520.000đ</span>
+                                            <span class="home__product-item-price-current">480.000đ</span>
+                                        </div>
+
+                                        <div class="home__product-item__action">
+                                            <span class="home__product-item__like home__product-item__like--liked">
+                                                <i class="home__product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home__product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home__product-item__rating">
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                            </div>
+                                            <span class="home__product-item__sold">Đã bán 2.1k</span>
+                                        </div>
+
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">CoCo</span>
+                                            <span class="home__product-item__origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="home__product-item__favory">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">50%</span>
+                                            <span class="home__product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                 <!-- Product item -->
+                                 <div class="col l-2-4 m-4 c-6">
+                                    <a class="home__product-item" href="#">
+                                        <div class="home__product-item-img" style="background-image: url(https://cf.shopee.vn/file/3fe687deef6aaac68c542eeaad6da1e3_tn);"></div>
+                                        <h4 class="home__product-item-name">[Mã FASHIONGREEN hoàn 10% tối đa 50K xu đơn 300K] [P0006]🎃 Áo thun áo phông PUMPKIN vải dày (Có sẵn/ảnh thật)</h4>
+                                        
+                                        <div class="home__product-item-price">
+                                            <span class="home__product-item-price-old">321.000đ</span>
+                                            <span class="home__product-item-price-current">139.000đ</span>
+                                        </div>
+
+                                        <div class="home__product-item__action">
+                                            <span class="home__product-item__like home__product-item__like--liked">
+                                                <i class="home__product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home__product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home__product-item__rating">
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home__product-item__sold">Đã bán 1.25k</span>
+                                        </div>
+
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">CoCo</span>
+                                            <span class="home__product-item__origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="home__product-item__favory">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">13%</span>
+                                            <span class="home__product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                 <!-- Product item -->
+                                 <div class="col l-2-4 m-4 c-6">
+                                    <a class="home__product-item" href="#">
+                                        <div class="home__product-item-img" style="background-image: url(https://cf.shopee.vn/file/b782f09fdf6541eae4c5b204216b04c7_tn);"></div>
+                                        <h4 class="home__product-item-name">[Mã FASHIONGREEN hoàn 10% tối đa 50K xu đơn 300K] [P0006]🎃 Áo thun áo phông PUMPKIN vải dày (Có sẵn/ảnh thật)</h4>
+                                        
+                                        <div class="home__product-item-price">
+                                            <span class="home__product-item-price-old">398.000đ</span>
+                                            <span class="home__product-item-price-current">300.000đ</span>
+                                        </div>
+
+                                        <div class="home__product-item__action">
+                                            <span class="home__product-item__like home__product-item__like--liked">
+                                                <i class="home__product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home__product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home__product-item__rating">
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                            </div>
+                                            <span class="home__product-item__sold">Đã bán 3.2k</span>
+                                        </div>
+
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">CoCo</span>
+                                            <span class="home__product-item__origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="home__product-item__favory">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">3%</span>
+                                            <span class="home__product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                 <!-- Product item -->
+                                 <div class="col l-2-4 m-4 c-6">
+                                    <a class="home__product-item" href="#">
+                                        <div class="home__product-item-img" style="background-image: url(https://cf.shopee.vn/file/430f7a3d21ebba06c343dee791bdf266_tn);"></div>
+                                        <h4 class="home__product-item-name">[Mã FASHIONGREEN hoàn 10% tối đa 50K xu đơn 300K] [P0006]🎃 Áo thun áo phông PUMPKIN vải dày (Có sẵn/ảnh thật)</h4>
+                                        
+                                        <div class="home__product-item-price">
+                                            <span class="home__product-item-price-old">202.000đ</span>
+                                            <span class="home__product-item-price-current">182.000đ</span>
+                                        </div>
+
+                                        <div class="home__product-item__action">
+                                            <span class="home__product-item__like home__product-item__like--liked">
+                                                <i class="home__product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home__product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home__product-item__rating">
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                            </div>
+                                            <span class="home__product-item__sold">Đã bán 6.2k</span>
+                                        </div>
+
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">CoCo</span>
+                                            <span class="home__product-item__origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="home__product-item__favory">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">61%</span>
+                                            <span class="home__product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                 <!-- Product item -->
+                                 <div class="col l-2-4 m-4 c-6">
+                                    <a class="home__product-item" href="#">
+                                        <div class="home__product-item-img" style="background-image: url(https://cf.shopee.vn/file/e48f05060e42060fef2fc3d27e03f6b3_tn);"></div>
+                                        <h4 class="home__product-item-name">[Mã FASHIONGREEN hoàn 10% tối đa 50K xu đơn 300K] [P0006]🎃 Áo thun áo phông PUMPKIN vải dày (Có sẵn/ảnh thật)</h4>
+                                        
+                                        <div class="home__product-item-price">
+                                            <span class="home__product-item-price-old">322.000đ</span>
+                                            <span class="home__product-item-price-current">232.000đ</span>
+                                        </div>
+
+                                        <div class="home__product-item__action">
+                                            <span class="home__product-item__like home__product-item__like--liked">
+                                                <i class="home__product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home__product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home__product-item__rating">
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="home__product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home__product-item__sold">Đã bán 3.2k</span>
+                                        </div>
+
+                                        <div class="home__product-item__origin">
+                                            <span class="home__product-item__brand">CoCo</span>
+                                            <span class="home__product-item__origin-name">Hàn Quốc</span>
+                                        </div>
+                                        <div class="home__product-item__favory">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home__product-item__sale-off">
+                                            <span class="home__product-item__sale-off-percent">23%</span>
+                                            <span class="home__product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <ul class="pagination home-product__pagination">
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-angle-left"></i>
+                                </a>
+                            </li>
+                            <li class="pagination-item pagination-item--active">
+                                <a href="" class="pagination-item__link">1</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">2</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">3</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">4</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">5</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">6</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">...</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">14</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <footer class="footer">
+            <div class="grid wide footer_content">
+                <div class="row">
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                        <ul class="footer__list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">F8-Mail</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Giới thiệu</h3>
+                        <ul class="footer__list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Giới thiệu</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Tuyển dụng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Điều khoản</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Danh mục</h3>
+                        <ul class="footer__list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Váy xinh</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Váy xòe</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Váy suông & váy ôm</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Theo dõi</h3>
+                        <ul class="footer__list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class=" footer-item__icon fab fa-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class=" footer-item__icon fab fa-instagram"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class=" footer-item__icon fab fa-linkedin"></i>
+                                    Linkedin
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-8 c-12">
+                        <h3 class="footer__heading">Vào cửa hàng trên ứng dụng</h3>
+                        <div class="footer__download">
+                            <img src="assets/img/QR_code.png" alt="" class="footer__download-qr">
+                            <div class="footer__download-apps">
+                                <a href="" class="footer__download-app-link">
+                                    <img src="assets/img/google_play.png" alt="" class="footer__download-app-img">
+                                </a>
+                                <a href="" class="footer__download-app-link">
+                                    <img src="assets/img/app_store.png" alt="" class="footer__download-app-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="grid wide">
+                    <p class="footer__text">© 2021 - Bản quyền thuộc về Công ty MiraiMoon</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Modal layout-->
+    <!-- <div class="modal"> -->
+        <!-- <div class="modal__overlay"></div>
+        <div class="modal__body"> -->
+            <!-- Register form -->
+            <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng ký</h3>
+                        <span class="auth-form__switch-btn">Đăng nhập</span>
+                    </div>
+                
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="email" placeholder="Nhập email của bạn" class="auth-form__input">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" placeholder="Nhập mật khẩu của bạn" class="auth-form__input">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" placeholder="Nhập lại mật khẩu " class="auth-form__input">
+                        </div>
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">
+                            Bằng việc đăng ký, bạn đã đồng ý với F8-shop về
+                            <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a>&
+                            <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                        </p>
+                    </div>
+
+                    <div class="auth-form__control">
+                        <button class=" home-filter__btn btn auth-form__control-back btn--normal">TRỞ LẠI</button>
+                        <button class=" home-filter__btn btn btn--primary ">ĐĂNG KÝ</button>
+                    </div>
+
+                </div>
+                
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials--facebook btn btn--size-s btn--width-icon">
+                        <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                        <span class="auth-form__socials-title">
+                            Kết nối với Facebook
+                        </span>
+                    </a>
+                    <a href="" class="auth-form__socials--google btn btn--size-s btn--width-icon">
+                        <i class="auth-form__socials-icon fab fa-google"></i>
+                        <span class="auth-form__socials-title">
+                            Kết nối với Google
+                        </span>
+                    </a>
+                </div>
+            </div> -->
+            
+            <!-- Login form -->
+            <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng nhập</h3>
+                        <span class="auth-form__switch-btn">Đăng ký</span>
+                    </div>
+                
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="email" placeholder="Nhập email của bạn" class="auth-form__input">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" placeholder="Nhập mật khẩu của bạn" class="auth-form__input">
+                        </div>
+                        
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <div class="auth-form__help">
+                            <a href="" class="auth-form__help-link auth-form__help-fogot">Quên mật khẩu</a>
+                            <span class="auth-form__help-separate"></span>
+                            <a href="" class="auth-form__help-link">Cần trợ giúp ?</a>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__control">
+                        <button class=" home-filter__btn btn auth-form__control-back btn--normal">TRỞ LẠI</button>
+                        <button class=" home-filter__btn btn btn--primary ">ĐĂNG NHẬP</button>
+                    </div>
+
+                </div>
+                
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials--facebook btn btn--size-s btn--width-icon">
+                        <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                        <span class="auth-form__socials-title">
+                            Đăng nhập với Facebook
+                        </span>
+                    </a>
+                    <a href="" class="auth-form__socials--google btn btn--size-s btn--width-icon">
+                        <i class="auth-form__socials-icon fab fa-google"></i>
+                        <span class="auth-form__socials-title">
+                            Đăng nhập với Google
+                        </span>
+                    </a>
+                </div>
+            </div>  -->
+        <!-- </div>
+    </div> -->
+
+</body>
+</html>
